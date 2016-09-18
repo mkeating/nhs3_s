@@ -62,9 +62,9 @@
 
 				<div class="col-lg-4 col-med-4 col-sm-4 col-xs-12 footer-section ">
 					<div style="margin: 0 auto; width: 80%">
-						<img src="http://localhost/wordpress/wp-content/uploads/2016/07/hthcsph_white.gif" /> <br /><br />
-						<img src="http://localhost/wordpress/wp-content/uploads/2016/07/hms_white.gif" /><br /><br />
-						<img src="http://localhost/wordpress/wp-content/uploads/2016/07/bwh_white.gif" />
+						<img src="<?php echo get_site_url(); ?>/wp-content/uploads/2016/07/hthcsph_white.gif" /> <br /><br />
+						<img src="<?php echo get_site_url(); ?>/wp-content/uploads/2016/07/hms_white.gif" /><br /><br />
+						<img src="<?php echo get_site_url(); ?>/wp-content/uploads/2016/07/bwh_white.gif" />
 
 					</div>
 						

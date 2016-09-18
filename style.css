@@ -980,6 +980,13 @@ a:active {
 	background: rgba(0, 0, 0, 0.4);
 }
 
+	@media screen and (max-height: 900px) {
+			.site-branding {
+				height: 65%;
+			}
+	}
+
+
 	@media screen and (max-width: 830px) {
 			.site-branding {
 			position: absolute;
@@ -1616,7 +1623,9 @@ object {
 
 
 /*
-	Temporary specific styles (will move to child theme)
+
+	This is NHS3 specific style; will break out into child theme
+
 */
 
 #am-i-eligible *{
@@ -1801,11 +1810,7 @@ article > .entry-content {
 }
 
 
-/*
 
-	This is NHS3 specific style; will break out into child theme
-
-*/
 
 .involved-text {
 	/*padding-left: 20%;*/ /* only for fullscreen*/
