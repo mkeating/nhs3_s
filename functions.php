@@ -165,8 +165,8 @@ function nhs3_s_scripts() {
 add_action( 'wp_enqueue_scripts', 'nhs3_s_scripts' );
 
 /**
- * Add custom post type for landing page sections
- */
+ * ADD CUSTOM POST TYPE: landing page sections; these will be full-screen sequential sections on the front page
+ **/
 
 function landing_section() {
 
@@ -315,10 +315,11 @@ add_action('edit_page_form', 'save_landing_meta', 1, 2);
  */
 require get_template_directory() . '/inc/custom-header.php';
 
-/**
-	*	Add custom header additional fields
-	*
-	*/
+/*
+		ADD CUSTOM HEADER FIELDS
+		
+	
+*/
 function header_text_customizer( $wp_customize ) {
     
 	//add logo

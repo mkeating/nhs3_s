@@ -1800,6 +1800,13 @@ article > .entry-content {
 	margin-top: 50px;
 }
 
+
+/*
+
+	This is NHS3 specific style; will break out into child theme
+
+*/
+
 .involved-text {
 	/*padding-left: 20%;*/ /* only for fullscreen*/
 	margin: 50px;
